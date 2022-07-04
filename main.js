@@ -41,9 +41,4 @@ function fazerPergunta() {
 
     elementoresposta.innerHTML = pergunta + respostas [numeroAleatorio]
 
-    // sumir com a resposta depois de um tempo
-
-    setTimeout(function() {
-      elementoresposta.style.opacity = 0;
-    }, 3000)
 }
